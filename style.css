@@ -13,8 +13,8 @@
 }
 
 .navbar{
-	background-color: black;
-	color: white !important;
+	background-color: white;
+	color: black !important;
 }
 
 .nav-item a{
