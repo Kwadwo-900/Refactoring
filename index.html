@@ -9,6 +9,7 @@
 	integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
 	crossorigin="anonymous"
 	/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<link rel="stylesheet" href="style.css" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" />
 	<link
@@ -47,19 +48,14 @@
                             <a class="nav-link"
                             href="./pages/events.html">Events</a>
                         </li>
-                        <li class="nav-item">
-                             <a class="nav-link"
-                            href="#about"></a>
-                              <div class="dropdown">
-                                <button class="dropbtn">About Us
-                                  <i class="fa fa-caret-down"></i>
-                                </button>
-                                <div class="dropdown-content">
-                                  <a href="#">Link 1</a>
-                                  <a href="#">Link 2</a>
-                                  <a href="#">Link 3</a>
-                                </div>
-                              </div> 
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle"
+                            href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+                            <div class="dropdown-menu" aria-labelled="navbarDropdown">
+                                <a class="dropdown-menu" href="#">Misson</a>
+                                <a class="dropdown-item" href="#">Pastors</a>
+                                <a class="dropdown-item" href="#">Gallery</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link"
