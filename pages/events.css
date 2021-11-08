@@ -44,6 +44,21 @@
     background-image: url("https://images.unsplash.com/photo-1498192467103-290f567eb3a3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGV2ZW50c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
 	background-repeat: no-repeat;
     background-size: cover;
-    height: 200%;
+    height: 100%;
     background-position: center center;
+}
+.navbar .nav-item:not(:last-child){
+	margin-right:35px; 
+}
+
+.dropdown-toggle::after{
+	transition: transform 0.15s linear;
+}
+
+.show.dropdown .dropdown-toggle::after{
+	transform: translateY(3px);
+}
+
+.drop-menu{
+	margin-top:0px;
 }
