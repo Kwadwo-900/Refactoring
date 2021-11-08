@@ -208,3 +208,8 @@ padding-top: 10px;
 	transform: translateY(3px);
 }
 
+.navbar li:hover, .dropdown:hover .dropbtn {
+  background-color: cyan;
+  color:white;
+  
+}
