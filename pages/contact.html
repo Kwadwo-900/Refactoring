@@ -21,6 +21,12 @@
 	href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
 	rel="stylesheet"
 	/>
+    <script type="text/javascript" src="map.js"></script>
+    <style type="text/css">
+        #map {
+  height: 100%;
+}
+    </style>
 </head>
 <body>
 	 <!--navigation bar-->
@@ -76,7 +82,43 @@
                 </nav>
                 </section>
 
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <h4>Location</h4>
+                    <p>
+                        street name
+                    </p>
+                    <p>
+                        City
+                    </p>
+                    <p>Address</p>
+                                    
+            </div>
+            <div class="col-md-9" id="map">
+               <!-- <iframe
+  width="600"
+  height="450"
+  style="border:0"
+  loading="lazy"
+  allowfullscreen
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCSO3UErVka5_EyEzJSvGBQQ7k-QPKjS0c
+    &q=Space+Needle,Seattle+WA">
+</iframe>-->
+        </div>
+        <hr>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="col-md-9">
 
+                </div>
+            </div>
+        </div>
+</section>
 
 
 
@@ -152,6 +194,10 @@
     "sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"
         ></script>
+        <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSO3UErVka5_EyEzJSvGBQQ7k-QPKjS0c=initMap&v=weekly"
+      async
+    ></script>
 </body>
 </html>
 
