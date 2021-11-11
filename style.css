@@ -13,13 +13,19 @@
 }
 
 .navbar{
-	background-color: white;
-	color: black !important;
+	background-color: black;
+	color:black !important;
+	
 }
 
 .nav-item a{
-	color: black !important;
+	color: white !important;
 }
+
+.dropdown-item{
+	color:black !important;
+}
+
 
 .nav-item{
 	padding-left: 2px;
@@ -31,8 +37,10 @@
 }
 
 #navbar button{
-	color: white !important;
+	color: black ;
+	background-color: white;
 }
+
 
 /* banner */
 
@@ -210,4 +218,6 @@ padding-top: 10px;
 
 .drop-menu{
 	margin-top:0px;
+	
 }
+
