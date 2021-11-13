@@ -218,4 +218,5 @@ padding-top: 10px;
 
 .dropdown-item:hover{
 	background-color: #2f3e57 !important;
+	color:black !important;
 }
