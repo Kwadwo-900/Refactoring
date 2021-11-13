@@ -60,6 +60,11 @@
 	transform: translateY(3px);
 }
 
-.drop-menu{
-	margin-top:0px;
+.dropdown-menu{
+	margin-top:5px;
+	background-color:#2f3e57 !important;
+}
+
+.dropdown-item:hover{
+	background-color: #2f3e57 !important;
 }
