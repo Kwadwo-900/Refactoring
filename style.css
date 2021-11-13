@@ -216,8 +216,9 @@ padding-top: 10px;
 	transform: translateY(3px);
 }
 
-.drop-menu{
+.dropdown-menu{
 	margin-top:0px;
+	background-color:#2f3e57 !important;
 	
 }
 
