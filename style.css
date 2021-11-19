@@ -100,13 +100,10 @@ font-weight: bolder;
 margin-top: 100px;
 }
 
-#give{
-	background-color: white;
-	border: 1px solid white;
-	margin-top: 20px;
-	width: 20%;
+#links{
+	margin-top: 50px;
+	
 }
-
 
 /* service */
 #service{
