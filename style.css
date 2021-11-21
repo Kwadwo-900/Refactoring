@@ -84,12 +84,16 @@
 
 .btn-lg{
 	color:#fff !important;
-	border:#f3f3f3 1px solid; 
+	border:#f3f3f3 1px solid;
+	width: 100px;
+	height:20;
 }
 
 .btn-primary{
 	background-color: #fff;
 	color:#000;
+	align-self: center;
+	width: 70;
 }
 
 #banner h1{
@@ -101,7 +105,7 @@ margin-top: 100px;
 }
 
 #links{
-	margin-top: 50px;
+	margin-top: 5px;
 	margin-left: 80px;
 	margin-right: 50px;
 }
@@ -197,8 +201,17 @@ padding-top: 10px;
 /* media */
 @media only screen and (max-width: 987px){
 	.navbar-brand{
-		padding-left: 0px;
+		padding-left: 5px;
 	}
+	#links a{
+		align-items: center;
+		justify-self: center;
+	}
+
+	#links .btn-primary{
+		align-self: center;
+	}
+
 }
 
 @media only screen and (max-width: 768px){
