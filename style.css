@@ -261,22 +261,21 @@ padding-top: 10px;
 	margin-right:35px; 
 }
 
-.dropdown-toggle::after{
-	transition: transform 0.15s linear;
-}
+
 
 .show.dropdown .dropdown-toggle::after{
 	transform: translateY(3px);
 }
 
 .dropdown-menu{
-	margin-top:5px;
-	background-color:#2f3e57 !important;
+	margin-top:1px;
+	background-color:#ffffff !important;
 }
 
 .dropdown-item:hover{
 	background-color: #2f3e57 !important;
-	color:black !important;
+	color:rgb(58, 49, 49) !important;
+	text-decoration: underline;
 }
 
 .row .btn:hover{
