@@ -34,6 +34,10 @@
 	background-color: white;
 }
 
+.navbar-brand {
+	text-align: center !important;
+}
+
 
 /* banner */
 
@@ -47,7 +51,7 @@
     background-size: cover;
     height: 100vh;
     background-position: center center;
-    
+    text-align: center !important;
     
 }
 
@@ -73,27 +77,6 @@
 	padding-left: 20px;
 }
 
-
-
-.btn{
-    margin-top: 10px;
-    border:#f3f3f3 1px solid;  
-}
-
-.btn-lg{
-	color:#fff !important;
-	border:#f3f3f3 1px solid;
-	width: 100px;
-	height:20;
-}
-
-.btn-primary{
-	background-color: #fff;
-	color:#000;
-	align-self: center;
-	width: 70;
-}
-
 #banner h1{
 font-style: oblique !important;
 font-family: 'Estonia' monospace;
@@ -108,14 +91,16 @@ margin-top: 20px;
 	margin-right: 50px;
 }
 
-blockqoute{
-	width: 27px;
+.row blockqoute{
+	
 	font-size: 130%;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	padding:10px;
 	font-style: italic;
-	float: right;
-	margin: 0px 0px 10px 10px;
+	margin-right: 50;
+	margin-top: 50;
+	text-align:center;
+	
 }
 
 
@@ -276,11 +261,15 @@ padding-top: 10px;
 
 .dropdown-item:hover{
 	background-color: #2f3e57 !important;
-	color:rgb(58, 49, 49) !important;
+	color:rgb(0, 0, 0) !important;
 	text-decoration: underline;
 }
 
 .row .btn:hover{
 	background-color: white !important;
 	color:black !important;
+}
+
+.nav-item a:hover{
+	text-decoration: underline;
 }
