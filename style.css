@@ -197,7 +197,7 @@ padding-top: 10px;
 
 
 /* media */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 479px){
 	.navbar-brand{
 		
 		padding-left: 5px;
@@ -209,13 +209,9 @@ padding-top: 10px;
 		float: inline-end;
 	}
 
-/*	.navbar-brand p{
-		display: none;
+	.navbar-brand p{
+		
 	}
-
-	*/
-
-	
 
 	#banner-container {
 		background-image: url("./images/photo_2021-11-21_21-17-44.jpg");
@@ -224,7 +220,7 @@ padding-top: 10px;
 
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 479px){
 	#banner-row {
 		background-size:cover;
 		
