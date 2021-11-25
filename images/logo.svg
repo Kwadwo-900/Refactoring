@@ -28,14 +28,21 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs14" />
+     id="defs14">
+    <rect
+       id="rect43"
+       height="130.24118"
+       width="1623.0055"
+       y="434.32983"
+       x="680.83393" />
+  </defs>
   <sodipodi:namedview
      inkscape:current-layer="g18"
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
      inkscape:window-x="-8"
-     inkscape:cy="210.15354"
-     inkscape:cx="238.103"
+     inkscape:cy="245.16896"
+     inkscape:cx="803.07825"
      inkscape:zoom="0.49907407"
      showgrid="false"
      id="namedview12"
@@ -54,12 +61,14 @@
      id="g18"
      inkscape:label="Image"
      inkscape:groupmode="layer">
-    <image
-       style="fill:#000080"
-       y="294.07013"
-       x="378.27362"
-       id="image20"
-       xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAICAgICAgICAgIDAwIDAwQDAwMDBAYEBAQEBAYJBQYF
+    <g
+       transform="matrix(1.30002,0.02296034,0,1.0743742,-138.67058,-39.253899)"
+       id="g53">
+      <image
+         width="349.07333"
+         height="377.17297"
+         preserveAspectRatio="none"
+         xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAICAgICAgICAgIDAwIDAwQDAwMDBAYEBAQEBAYJBQYF
 BQYFCQgJBwcHCQgOCwkJCw4QDQwNEBMRERMYFxgfHyoBAgICAgICAgICAgMDAgMDBAMDAwMEBgQE
 BAQEBgkFBgUFBgUJCAkHBwcJCA4LCQkLDhANDA0QExERExgXGB8fKv/CABEIBDgEOAMBIgACEQED
 EQH/xAA6AAEAAQMFAQAAAAAAAAAAAAAACAYHCQEDBAUKAgEBAAAGAwEAAAAAAAAAAAAAAAIEBQYH
@@ -2531,13 +2540,20 @@ W3yeYvyqlWCDK5CddOSA57NQ44uXpqFsl7eqHOXiJm540TfdBvEp1loBE3eXRERERU/fBvNAxLye
 KKOOv7EOw/UR1Mc0BUdD76yG6ARRsI6vJqjQqQ2j4vgzqjjQFBEdHR1SEdHR0bABUUaGzf6hH//Z
 
 "
-       preserveAspectRatio="none"
-       height="367.15442"
-       width="302.98798" />
-    <path
-       sodipodi:nodetypes="ccccccccccccccccc"
-       id="path22"
-       d="m 466.07942,373.81932 c 11.72004,-9.70346 19.19478,-18.69719 45.33879,-24.79465 l 40.37987,3.54209 33.29567,24.08624 22.6694,38.25461 7.08419,41.7967 -7.08419,45.33879 c -7.7926,16.15356 -15.58521,27.71364 -23.37781,38.25461 l -32.58726,23.37782 -26.21149,4.25051 c -16.10672,0.28537 -27.00338,-4.63932 -37.54619,-9.91786 -18.31511,-4.92703 -28.45491,-25.02168 -39.67145,-40.37987 -8.75523,-15.11293 -10.78082,-30.22586 -14.16837,-45.33879 l 0.70842,-34.0041 8.50102,-30.462 7.79261,-15.58521 z"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         id="image20"
+         x="340.20312"
+         y="288.05902"
+         style="fill:#000080" />
+      <text
+         xml:space="preserve"
+         id="text41"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43);fill:#000000;fill-opacity:1;stroke:none;"
+         transform="translate(-52.100181,12.022264)"><tspan
+           style="visibility:hidden"
+           x="680.83398"
+           y="739.73773"><tspan
+             dx="0 122.25 127.5 128.25 134.25 127.5 95.625 114 65.625 122.25 65.625 134.25 136.875 87.375 65.625 65.625 136.875 87.375 127.5 95.625 136.875 128.25 87.375 65.625 132 136.875 128.25"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:192px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Leaders Light international</tspan></tspan></text>
+    </g>
   </g>
 </svg>

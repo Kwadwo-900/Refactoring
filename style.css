@@ -26,7 +26,8 @@
 
 .navbar-brand{
 	color: white !important;
-	padding-left: 50px;
+	padding-left: 10px;
+	text-align: center;
 }
 
 #navbar button{
@@ -36,6 +37,10 @@
 
 .navbar-brand {
 	text-align: center !important;
+}
+
+.navbar-brand p{
+	display: inline-block;
 }
 
 
@@ -194,19 +199,23 @@ padding-top: 10px;
 /* media */
 @media only screen and (max-width: 700px){
 	.navbar-brand{
+		
 		padding-left: 5px;
-	}
-	#links a{
-		align-items: center;
-		justify-self: center;
-		margin-top: 5px;
-
+		text-align: center;
+		font-size: medium;
 	}
 
-	#links .btn-primary{
-		align-self: center;
-		margin-left: 20px;
+	.navbar button{
+		float: inline-end;
 	}
+
+/*	.navbar-brand p{
+		display: none;
+	}
+
+	*/
+
+	
 
 	#banner-container {
 		background-image: url("./images/photo_2021-11-21_21-17-44.jpg");
@@ -220,6 +229,7 @@ padding-top: 10px;
 		background-size:cover;
 		
 	}
+
 
 .social-col{
 	width: 33%;
