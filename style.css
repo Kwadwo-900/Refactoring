@@ -51,10 +51,10 @@
 	color: white !important;
 	padding-top: 80px;
 	padding-bottom: 80px;
-    background-image: url("./images/DSC_9145.png");
+    background-image: url("./images/IMG_8403.jpg");
 	background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
     background-position: center center;
     text-align: center !important;
     
@@ -87,7 +87,7 @@ font-style: oblique !important;
 font-family: 'Estonia' monospace;
 text-align: center;
 font-weight: bolder;
-margin-top: 20px;
+margin-top: 80px;
 }
 
 #links{
@@ -105,7 +105,7 @@ margin-top: 20px;
 	margin-right: 50;
 	margin-top: 50;
 	text-align:center;
-	
+	font-weight: bolder;
 }
 
 .lbox {
@@ -126,6 +126,7 @@ margin-top: 20px;
 	text-align: center;
 	font-style: oblique;
 	display:block;
+	padding-bottom: 5px;
 }
 
 .cbox {
@@ -134,8 +135,8 @@ margin-top: 20px;
 	background-color: #fff;
 	color:#000000;
 	border: 2px solid black;
-	margin-top: 10px;
-	margin-left: 15%;
+	margin-top: 15px;
+	margin-left: 35%;
 	margin-bottom: 5px;
 	display: inline-block;
 	text-align: center;
@@ -144,6 +145,24 @@ margin-top: 20px;
 .cobox p{
 	font-weight: bolder;
 	display:block;
+}
+
+.cbox #lside{
+	height: 12% !important;
+	width: 20% !important;
+	background-color: #fff;
+	color:#000000;
+	border: 2px solid black;
+	margin-top: 15px;
+	margin-left: 35%;
+	margin-bottom: 5px;
+	display: inline-block;
+	text-align: center;	
+
+}
+
+#about-col{
+	margin-top: 50px;
 }
 
 
