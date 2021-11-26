@@ -111,44 +111,39 @@ margin-top: 20px;
 .lbox {
 	height: 60%;
 	width: 60%;
-	background-color: bisque;
-	align-items: center;
-	justify-content: center;
+	background-color: rgba(231, 228, 224, 0.747);
+	text-align: center;
 }
 
 #nwtxt1{
 	text-align: center;
 	border-bottom: 2px rgb(0, 0, 0) solid;
 	font-size: xx-large;
+	
 }
 
 #nwtxt2{
 	text-align: center;
 	font-style: oblique;
-	
+	display:block;
 }
 
 .cbox {
-	height: 20%;
+	height: 22%;
 	width: 30%;
 	background-color: #fff;
 	color:#000000;
 	border: 2px solid black;
-	margin-top: 30px;
-	margin-left: 10%;
-	justify-content: center;
-	align-items: center;
+	margin-top: 10px;
+	margin-left: 15%;
+	margin-bottom: 5px;
 	display: inline-block;
 	text-align: center;
 }
 
 .cobox p{
-	margin-top: 50%;
-	text-align: center;
 	font-weight: bolder;
-	padding: 10px;
 	display:block;
-	margin: auto;
 }
 
 
@@ -253,7 +248,9 @@ padding-top: 10px;
 	.navbar button{
 		float: inline-end;
 	}
-
+	.navbar-brand p{
+		display: none;
+	}
 	
 
 	#banner-container {
@@ -267,8 +264,15 @@ padding-top: 10px;
 	}
 
 	.cbox{
-		margin-bottom: 5%;
+		margin-top: 30px;
+		margin-bottom: 35%;
 		margin-left: 35%;
+		height: 15%;
+	}
+
+	lbox{
+		height:70%;
+		width:65%;
 	}
 
 }
