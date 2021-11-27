@@ -5,13 +5,7 @@
 }
 
 
-#footer{
-    background-color: #0a193d;
-    color: white !important;
-	padding-top: 80px;
-	padding-bottom: 80px;
 
-}
 
 /* navbar */
 
@@ -47,18 +41,7 @@
 	background-color: white;
 }
 
-#img-container{
-	background-color: #0a193d;
-	color: white !important;
-	padding-top: 80px;
-	padding-bottom: 80px;
-	margin-bottom: 80px;
-    background-image: url("https://images.unsplash.com/photo-1498192467103-290f567eb3a3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGV2ZW50c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
-	background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    background-position: center center;
-}
+
 .navbar .nav-item:not(:last-child){
 	margin-right:35px; 
 }
@@ -81,9 +64,6 @@
 	color:black !important;
 }
 
-#submit{
-	margin:5px 5px;
-}
 
 @media only screen and (max-width: 479px){
 	.navbar-brand{

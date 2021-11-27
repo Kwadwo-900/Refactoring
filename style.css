@@ -140,6 +140,7 @@ margin-top: 80px;
 	margin-bottom: 5px;
 	display: inline-block;
 	text-align: center;
+	justify-content: baseline;
 }
 
 .cobox p{
@@ -223,6 +224,10 @@ margin-top: 80px;
 	padding-top: 15px;
 }
 
+#pimage{
+	box-shadow: 1px 1px 3px #888888;
+}
+
 /* social */
 
 #social{
@@ -285,7 +290,7 @@ padding-top: 10px;
 	.cbox{
 		margin-top: 30px;
 		margin-bottom: 35%;
-		margin-left: 35%;
+		margin-left: 33%;
 		height: 15%;
 	}
 
