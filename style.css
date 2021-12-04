@@ -48,15 +48,16 @@
 
 #banner-container{
 	background-color: #000000;
-	color: white !important;
+	color: #003366!important;
 	padding-top: 80px;
 	padding-bottom: 80px;
-    background-image: url("./images/IMG_8403.jpg");
+    background-image: url("./images/photo_2021-12-04_10-35-19.jpg");
 	background-repeat: no-repeat;
     background-size: cover;
     height: 120vh;
     background-position: center center;
     text-align: center !important;
+	
     
 }
 
@@ -273,6 +274,7 @@ padding-top: 10px;
 	#banner-container {
 		background-image: url("./images/photo_2021-11-21_21-17-44.jpg");
 		background-size: cover;
+		color: #ffffff !important;
 	}
 
 	.lbox{
