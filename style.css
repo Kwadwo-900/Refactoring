@@ -275,6 +275,9 @@ padding-top: 10px;
 		background-image: url("./images/photo_2021-11-21_21-17-44.jpg");
 		background-size: cover;
 		color: #ffffff !important;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
 	}
 
 	.lbox{
