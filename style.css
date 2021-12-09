@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	align-items: center;
 	
     
 }
@@ -138,44 +139,31 @@ margin-top: 80px;
 }
 
 .cbox {
-	height: 22%;
-	width: 29%;
+	
 	background-color: #fff;
 	color:#000000;
 	border: 2px solid black;
-	margin-top: 15px;
-	margin-left: 35%;
-	margin-bottom: 5px;
+	margin: 4px 2px;
 	display: inline-block;
 	text-align: center;
-	justify-content: baseline;
+	padding: 15px 32px;
+
+	
 }
 
-.cobox p{
+.cbox p{
 	font-weight: bolder;
 	display:block;
 }
 
-.cbox #lside{
-	height: 12% !important;
-	width: 20% !important;
-	background-color: #fff;
-	color:#000000;
-	border: 2px solid black;
-	margin-top: 15px;
-	margin-left: 30%;
-	margin-bottom: 5px;
-	display: inline-block;
-	text-align: center;	
 
-}
 
 #about-col{
 	margin-top: 50px;
 }
 
 .button{
-	background-color: #ffffff;
+ background-color: #ffffff;
   border: 2px solid #000000;
   color: rgb(0, 0, 0);
   padding: 15px 32px;
@@ -183,9 +171,14 @@ margin-top: 80px;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer
-  
+  margin: 4px 2px 4px 2px;
+  cursor: pointer; 
+}
+
+#new{
+margin-left: 30%;
+margin-bottom: 5px;
+display: block;
 }
 
 
@@ -305,11 +298,11 @@ padding-top: 10px;
 		margin-left: 20%;
 	}
 
-	.cbox{
+	#new{
 		margin-top: 30px;
 		margin-bottom: 35%;
-		margin-left: 33%;
-		height: 15%;
+		margin-left: 50%;
+		
 	}
 
 	lbox{
@@ -372,9 +365,10 @@ padding-top: 10px;
 	text-decoration: underline;
 }
 
-.cbox:hover{
+.button .cbox:hover{
 	background-color: #000000;
-	color: #fff;
+	color: #fff !important;
+	border: 2px solid #fff;
 }
 
 

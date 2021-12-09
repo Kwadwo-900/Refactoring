@@ -113,9 +113,12 @@
 	width:100px;
 	text-align:center;
 }
+section{
+	display:grid;
+}
 
 section .gallery{
-	display:block;
+	display:flexbox;
 }
 
 div.gallery {
@@ -145,6 +148,7 @@ div.gallery {
 	padding: 0 6px;
 	float: left;
 	width: 24.99999%;
+	display: flexbox;
   }
   
   @media only screen and (max-width: 700px) {
