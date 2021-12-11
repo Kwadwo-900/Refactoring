@@ -173,9 +173,16 @@ margin-top: 80px;
 }
 
 #new{
-margin-left: 30%;
+margin-left: 25%;
 margin-bottom: 5px;
 display: block;
+}
+
+#new1{
+margin-left: 40%;
+margin-bottom: 5px;
+display: block;
+
 }
 
 
@@ -298,13 +305,22 @@ padding-top: 10px;
 	#new{
 		margin-top: 30px;
 		margin-bottom: 35%;
-		margin-left: 25%;
-		
+		margin-left: 22%;	
+	}
+	#new1{
+		margin-top: 30px;
+		margin-bottom: 35%;
+		margin-left: 20%;
+
 	}
 
 	lbox{
 		height:70%;
 		width:65%;
+	}
+
+	#service{
+		padding-bottom:0px;
 	}
 
 }
